@@ -1,0 +1,50 @@
+h1,
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("/sky.jpg") no-repeat center/cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#submitButton,
+#city-input {
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.weather-card {
+  width: 150%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  background-color: #cfe9f5;
+}
+
+.city-name {
+  font-size: 2rem;
+  color: #333;
+}
+
+.weather-temp {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.weather-icon {
+  width: 150px;
+}
