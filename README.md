@@ -1,1 +1,1 @@
-Simple weatherApp -app for school project
+Simple WeatherApp -app for school project
